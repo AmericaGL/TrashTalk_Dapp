@@ -65,7 +65,7 @@ We use [Python 2.7](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-in
 * **America Lopez** 
 * **Penelope Lopez** 
 * **Victor Godales** 
-* **Justin Zemlyansky**
+
 
 
 ## License
@@ -74,6 +74,7 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Inspiration - Siraj Raval and Codacus
+* Inspiration - Siraj Raval and Codacus and Justin
 * How to do Object Detection with OpenCV - Siraj Raval 
 * OpenCV RealTime Object Recognition in any background -Codacus
+* Justin Zemlyansky provided the USB camera and answered questions we had about hardware.
