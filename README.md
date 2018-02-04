@@ -19,7 +19,7 @@ The project consists of the following software and hardware components:-
 * Firebase Integration in the Raspberry Pi (Optional): Connect Firebase services from Raspberry Pi to Android Json File when a recycable match is proven.
 
 
-###Prerequisites
+### Prerequisites
 
 What things you need to install the software in the Raspberry Pi and how to install them
 
