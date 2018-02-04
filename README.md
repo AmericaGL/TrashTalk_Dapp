@@ -1,22 +1,23 @@
 # TrashTalk_Dapp powered by NEM
 
-Trash talk are smart, solar-powered, sensor-equipped waste &amp; recycling stations that communicate real-time status to on-demand collection crews.
+TrashTalk are smart, solar-powered, sensor-equipped waste &amp; recycling stations that communicate real-time status to on-demand collection crews.
 
-The raspberry pi runs the program the Object Detector file and see it it matches within the Training Data to see if it recyclable, it then confirms to firebase with real-time data when it hits a match. Then firebase confirms with the blockchain of NEM which sends a specific amount of NEM for that recyclable object to a test address.  
+The Raspberry Pi runs the program the Object Detector file and see it it matches within the Training Data to see if it recyclable, it then confirms to firebase with real-time data when it hits a match. Then firebase confirms with the blockchain of NEM which sends a specific amount of NEM for that recyclable object to a test address.  
 
 ## Getting Started
 
 These instructions will get a copy of the project up and running on local machine for development and testing purposes. 
 
 ### Project Components
-The project consists of the following components:-
+The project consists of the following software and hardware components:-
 
+* NEM Test Account - a test Address to prove the proof of concept. 
 * Android Mobile - In order to monitor this hardware via a mobile app, we will need an Android mobile phone. 
 * Arduino 101 and Grove Base - Connected with UltraSonic Distance Sensor
 * TrashTalk PiCam: This is the complete hardware setup of a Raspberry Pi connected with a USB logitech camera. 
-* Android Mobile (Optional): In order to monitor this virtual hardware via a mobile app, we will need an Android mobile phone.
+* Android Mobile: In order to monitor this virtual hardware via a mobile app, we will need an Android mobile phone.
 * Firebase Integration in the Raspberry Pi (Optional): Connect Firebase services from Raspberry Pi to Android Json File when a recycable match is proven.
-* NEM Test Account - a test Address to prove the proof of concept. 
+
 
 ###Prerequisites
 
@@ -52,7 +53,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 TBD
 
-## Versioning
+## Versions
 
 We use [OpenCV 3.2](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/) that includes the extra modules not orginally included from previous versionings.
 
@@ -64,7 +65,7 @@ We use [Python 2.7](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-in
 * **America Lopez** 
 * **Penelope Lopez** 
 * **Victor Godales** 
-* **justin Zemlyansky**
+* **Justin Zemlyansky**
 
 
 ## License
