@@ -2,7 +2,7 @@
 
 TrashTalk are smart, solar-powered, sensor-equipped waste &amp; recycling stations that communicate real-time status to on-demand collection crews.
 
-The Raspberry Pi runs the program the Object Detector file and see it it matches within the Training Data to see if it recyclable, it then confirms to firebase with real-time data when it hits a match. Then firebase confirms with the blockchain of NEM which sends a specific amount of NEM for that recyclable object to a test address.  
+The Raspberry Pi runs the program of the Object Detector file to see if the objects matches with the Training Data to see if it is recyclable or not. So when object is matched and confirmed as recycable it then confirms to firebase with real-time data. Right after this confirmation, NEM blockchain api will send specific amount of NEM for that recyclable object to a NEM test address. Ta-Da! 
 
 ## Getting Started
 
