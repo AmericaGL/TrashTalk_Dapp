@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vic.sample.fireapp2.MainActivity"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:id="@+id/btnTEST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="200dp"
+        android:elevation="0dp"
+        android:text="Submit"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textTab1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnTEST"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal"
+        android:text="Please enter the number located at the top of the station."
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/stnNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnTEST"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="140dp"
+        android:layout_centerInParent="true"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:hint="TrashTalk Station number ..."
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnTEST"
+        android:layout_marginTop="250dp"
+        android:gravity="center_horizontal"
+        android:text="Start scanning recyclables after input."
+        android:textSize="40dp" />
+    <Button
+        android:id="@+id/finishedBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="450dp"
+        android:elevation="0dp"
+        android:text="Finished"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/instructions2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnTEST"
+        android:layout_marginTop="415dp"
+        android:gravity="center_horizontal"
+        android:text="Press finished when done."
+        android:textSize="24dp" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relLayout">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/relLayoutTopBar"
+            android:layout_alignParentTop="true">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+            </android.support.design.widget.AppBarLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/relLayoutMiddle"
+            android:layout_below="@id/relLayoutTopBar"
+            android:layout_above="@id/relLayoutBotBar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:textSize="30sp"
+                android:id="@+id/activityTitle1"
+                android:textAlignment="center" />
+
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/relLayoutBotBar"
+            android:layout_alignParentBottom="true">
+
+
+            <android.support.design.widget.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="@dimen/cardview_default_elevation"
+                android:minWidth="@dimen/navigation_bar_height"
+                android:id="@+id/bottomNavView_Bar"
+                android:background="@android:color/black"
+                app:menu="@menu/bottom_navigation_menu"
+                app:itemBackground="@android:color/black"
+                app:itemIconTint="@drawable/selector"
+                app:itemTextColor="@drawable/text_selector">
+
+
+
+
+            </android.support.design.widget.BottomNavigationView>
+
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

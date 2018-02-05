@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "94911600467",
+    "firebase_url": "https://trashtalkuser-beta2.firebaseio.com",
+    "project_id": "trashtalkuser-beta2",
+    "storage_bucket": "trashtalkuser-beta2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94911600467:android:d390242d6e887d7f",
+        "android_client_info": {
+          "package_name": "vic.sample.fireapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94911600467-40e27s8ige2geodptusl7nveuvme88bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB89gGC-uKWJh0moPWyDjiPX40a9syVyE0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

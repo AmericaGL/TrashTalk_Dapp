@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<dimen name="design_bottom_navigation_height" tools:override="true">56dp</dimen>-->
+
+
+
+
+
+    <item
+        android:id="@+id/ic_android"
+        android:icon="@drawable/ic_deposit"
+        android:title="Deposit"
+        />
+    <item
+        android:id="@+id/ic_arrow"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Dashboard"
+        />
+    <item
+        android:id="@+id/ic_music"
+        android:icon="@drawable/ic_stations"
+        android:title="Stations"
+        />
+    <item
+        android:id="@+id/ic_center_focus"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        />
+    <!--<item-->
+        <!--android:id="@+id/ic_backup"-->
+        <!--android:icon="@drawable/ic_backup"-->
+        <!--android:title="Backup"-->
+        <!--/>-->
+
+</menu>

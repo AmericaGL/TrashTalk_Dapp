@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.vic.fireapp2.RegisterActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <ImageView
+        android:id="@+id/logoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/logo3copy"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="Email ..."
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="Password ..."
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/nemField"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="NEM address ...(begins with 'T')"
+        android:inputType="textEmailAddress"
+        android:maxLength="46"
+        android:padding="12dp"
+        android:textAllCaps="true"
+        android:textSize="12sp" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/counter"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignEnd="@+id/nemField"-->
+        <!--android:layout_alignRight="@+id/nemField"-->
+        <!--android:layout_below="@+id/passwordField"-->
+        <!--android:text="" />-->
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="bottom"
+        android:text="0 / 40"
+        android:textAlignment="textEnd"
+        android:textSize="13sp" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:background="@drawable/btn_background"
+        android:text="Sign Up"
+        tools:textColor="@color/colorPrimary"
+        android:padding="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="1dp"
+        app:srcCompat="@mipmap/powered_by_nem" />
+
+    <TextView
+        android:id="@+id/toLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="Login" />
+</RelativeLayout>
